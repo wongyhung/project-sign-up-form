@@ -8,9 +8,16 @@ body {
     background-color: #333333;
 }
 
+#left-photo {
+    width: 25vw;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+}
+
 #shibuya-sky-view {
-    width: auto;
-    height: 100vh; 
+    width: 100%;
+    height: 100%;
     position: absolute;
     left: 0px;
     opacity: 95%;
@@ -22,6 +29,6 @@ body {
     position: absolute;
     left: 0px;
     top: 425px;
-    padding: 0px 121.429px;
+    padding: 0px calc(50% - 50px);
     background-color: rgba(0, 0, 0, 0.508);
 }
