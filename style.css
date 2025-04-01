@@ -2,22 +2,25 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 body {
     background-color: #333333;
+    display: flex;
+    justify-content: space-between;
 }
 
 #left-photo {
     width: 40vw;
     height: 100vh;
-    position: absolute;
+    position: static;
     left: 0px;
 }
 
 #shibuya-sky-view {
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 100vh;
     position: absolute;
     left: 0px;
     opacity: 95%;
@@ -29,6 +32,23 @@ body {
     position: absolute;
     left: 0px;
     top: 425px;
-    padding: 0px calc(50% - 50px);
+    padding: 0px calc(20vw - 50px);
     background-color: rgba(0, 0, 0, 0.508);
+}
+
+#right-content {
+    width: 60vw;
+    padding: 25px;
+}
+
+h1 {
+    font-size: large;
+    color: lightgrey;
+    margin: 50px;
+}
+
+h2 {
+    font-size: medium;
+    color: lightgrey;
+    margin: 50px;
 }
