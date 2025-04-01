@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+}
+
+#shibuya-sky-view {
+    width: auto;
+    height: 100vh; 
+    position: absolute;
+    left: 0px;
+    opacity: 95%;
+}
+
+#odinlogo {
+    box-sizing: content-box;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 425px;
+    padding: 0px 121.429px;
+    background-color: rgba(0, 0, 0, 0.508);
+}
