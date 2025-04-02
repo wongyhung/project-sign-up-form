@@ -6,6 +6,8 @@
     <title>Project: Sign-up Form</title>
     <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@100..900&display=swap'">
 </head>
 <body>
     <div id="left-photo">
@@ -13,25 +15,25 @@
         <img id="odinlogo" src="odin-lined.png" alt="odin logo">
     </div>
     <div id="right-content">
-        <h1>This is not a real online business yada yada yada please sign up here to get free candy woohoo</h1>
-        <h2>You know you want tooo</h2>
-        <form action="post">
-            <p>Sign-up here!</p>
+        <h1>Ready to take your business to a whole new level? We're here to help unlock your business' full potential using our next-generation<span id="aitext">&nbsp;&nbsp;AI technology&nbsp;</span>.</h1>
+        <h2>Sign up today to get started.</h2>
+        <form id="signup-form">
+            <p>Registration Form</p>
             <div id="forms">
                 <div id="name-column">
                     <div>
                         <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name">
+                        <input type="text" id="first-name" required>
                     </div>
                     <div>
                         <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name">
+                        <input type="text" id="last-name" required>
                     </div>
                 </div>
                 <div id="contact-column">
                     <div>
                         <label for="email">Email:</label>
-                        <input type="text" id="email">
+                        <input type="text" id="email" required>
                     </div>
                     <div>
                         <label for="phone-num">Phone Number:</label>
@@ -41,14 +43,14 @@
                 <div id="password-column">
                     <div>
                         <label for="password">Password:</label>
-                        <input type="password" id="password">
+                        <input type="password" id="password" required>
                     </div>
                     <div>
                         <label for="confirm-password">Confirm Password:</label>
-                        <input type="password" id="confirm-password">
+                        <input type="password" id="confirm-password" required>
                     </div>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Register</button>
                 <p id="already-registered">Already have an account? <a href="README.md" id="member-login">Log-in here</a></p>
             </div>
         </form>
