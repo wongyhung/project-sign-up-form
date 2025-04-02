@@ -60,14 +60,14 @@ form {
     font-family: Arial;
     color: lightgrey;
     font-size: large;
-    padding: 50px 150px;
+    padding: 50px 7.5vw;
     box-shadow: 4px 6px 5px 0px #0A0A09;
     
 }
 
 form p {
     position: relative;
-    top: -25px;
+    top: -20px;
     left: -50px;
     font-weight: bold;
     font-size: larger;
@@ -75,26 +75,21 @@ form p {
 
 #forms {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 20px;
+}
+
+#name-column div, #contact-column div, #password-column div {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-#left-form {
+#name-column, #contact-column, #password-column {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 20px;
-}
-
-#right-form {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    gap: 20px;
-}
-
-#left-form div, #right-form div {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 input {
@@ -109,6 +104,8 @@ button {
     background-color: rgb(36, 55, 55);
     color: lightgrey;
     font-size: large;
+    position: relative;
+    bottom: -20px;
 }
 
 button:hover {
