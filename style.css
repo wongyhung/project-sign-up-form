@@ -45,13 +45,13 @@ body {
 h1 {
     font-size: large;
     color: lightgrey;
-    margin: 50px;
+    margin: 30px;
 }
 
 h2 {
     font-size: medium;
     color: lightgrey;
-    margin: 50px;
+    margin: 30px;
 }
 
 form {
@@ -61,6 +61,7 @@ form {
     color: lightgrey;
     font-size: large;
     padding: 50px 7.5vw;
+    padding-bottom: 10px;
     box-shadow: 4px 6px 5px 0px #0A0A09;
     
 }
@@ -104,10 +105,25 @@ button {
     background-color: rgb(36, 55, 55);
     color: lightgrey;
     font-size: large;
-    position: relative;
-    bottom: -20px;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: darkslateblue;
+}
+
+#already-registered {
+    font-size: small;
+    margin-left: 50px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#member-login {
+    text-decoration: underline;
+    color: lightgrey;
+}
+
+#member-login:hover {
+    color: slategray;
 }
